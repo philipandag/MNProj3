@@ -45,10 +45,10 @@ plt.plot(x_test, lagrange, '-')
 plt.show()
 
 splajny = interpolacja_funkcjami_sklejanymi(x_test, X, Y)
-splajny = splajny[0:len(splajny)//20]
-x_test = x_test[0:len(x_test)//20]
-plt.plot(x_test, splajny, '-')
-plt.show()
+#splajny = splajny[0:len(splajny)//20]
+#x_test = x_test[0:len(x_test)//20]
+#plt.plot(x_test, splajny, '-')
+#plt.show()
 
 
 
